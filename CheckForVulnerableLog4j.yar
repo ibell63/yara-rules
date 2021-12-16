@@ -28,7 +28,7 @@ rule vulnerableJar {
         hash.sha256(0, filesize) == "cf65f0d33640f2cd0a0b06dd86a5c6353938ccb25f4ffd14116b4884181e0392" or
         hash.sha256(0, filesize) == "5bb84e110d5f18cee47021a024d358227612dd6dac7b97fa781f85c6ad3ccee4" or
         hash.sha256(0, filesize) == "ccf02bb919e1a44b13b366ea1b203f98772650475f2a06e9fac4b3c957a7c3fa" or
-		hash.sha256(0, filesize) == "815a73e20e90a413662eefe8594414684df3d5723edcd76070e1a5aee864616e" or
+	hash.sha256(0, filesize) == "815a73e20e90a413662eefe8594414684df3d5723edcd76070e1a5aee864616e" or
         hash.sha256(0, filesize) == "10ef331115cbbd18b5be3f3761e046523f9c95c103484082b18e67a7c36e570c" or
         hash.sha256(0, filesize) == "dc815be299f81c180aa8d2924f1b015f2c46686e866bc410e72de75f7cd41aae" or
         hash.sha256(0, filesize) == "9275f5d57709e2204900d3dae2727f5932f85d3813ad31c9d351def03dd3d03d" or
