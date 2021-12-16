@@ -57,10 +57,10 @@ rule possibleVulnerableJar {
       $x01 = "apache-log4j"
       $x02 = "log4j-2"
       $x03 = "log4j-core-2"
-	  $x04 = "JndiLookup"
-	  $x05 = "JNDILookup"
-	  $x06 = "JNDILOOKUP"
-	  $x07 = "JndiLookup.class"
+      $x04 = "JndiLookup"
+      $x05 = "JNDILookup"
+      $x06 = "JNDILOOKUP"
+      $x07 = "JndiLookup.class"
 	  
    condition:
       1 of ($x*)
