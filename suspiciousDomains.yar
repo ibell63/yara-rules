@@ -12,8 +12,8 @@ rule suspiciousDomains {
       yarahub_rule_sharing_tlp = "TLP:WHITE"
 
   strings:
-    [...]
+      $a0 = "l1vec4ms.com" nocase wide ascii
 
   condition:
-    [...]
+      any of them
 }
