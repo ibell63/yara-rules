@@ -5,7 +5,7 @@ rule suspiciousDomains {
       description = "Finds domains that I dont like the looks of"
       date = "2022-07-01"
       yarahub_author_twitter = "@ibell63"
-      yarahub_reference_md5 = "68b329da9893e34099c7d8ad5cb9c940"
+      yarahub_reference_md5 = "88fa4d2323184e7227c1a70e1c0e79ec"
       yarahub_uuid = "ae1e8d0d-9f51-47d0-9b13-2767c4e73988"
       yarahub_license = "CC BY-NC 4.0"
       yarahub_rule_matching_tlp = "TLP:WHITE"
