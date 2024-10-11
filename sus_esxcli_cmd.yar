@@ -11,11 +11,9 @@ meta:
     yarahub_rule_sharing_tlp = "TLP:WHITE"
 
 strings:
-    $s1 = "esxcli vm process kill"
-    $s2
+	$s1 = "esxcli vm process kill"
+	$s2 = "another string"
 	
-
-
 condition:
     (1 of them) or (all of them)
 
